@@ -7,7 +7,6 @@ update: 2021.12.03
 * Location of buttoms.
 ---
 
----
 update: 2021.12.04--interface_v3
 * set the width of index box to be the same
 * sorting the number in string format shows the wrong result
