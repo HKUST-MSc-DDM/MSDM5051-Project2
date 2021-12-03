@@ -17,7 +17,7 @@ class TestApp(Frame):
             f.pack(fill=BOTH,expand=1)
             # df = TableModel.getSampleData() # here is the sample data order by the library
             # here you should change the file location
-            df = pd.read_csv('/Users/yangyong/Documents/文稿/HKUST/MSDM5051/proj1/sort_exercises_with_data/TDCS_M06A_20190830_080000.csv', header= None)
+            df = pd.read_csv('TDCS_M06A_20190830_080000.csv', header= None)
             # df = df
             self.table = pt = Table(f, dataframe=df,
                                     showtoolbar=True, showstatusbar=True)
